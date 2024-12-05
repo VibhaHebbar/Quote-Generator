@@ -67,8 +67,7 @@ const quotes=[
 
     btn.addEventListener("click",function(){
         let random=Math.floor(Math.random() * quotes.length);
-        console.log(quote);  // Should log the <span class="quote"> element
-console.log(person); // Should log the <div class="person"> element
+  
 
 
         quote.innerText=quotes[random].quote;
